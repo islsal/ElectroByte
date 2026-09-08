@@ -377,11 +377,13 @@ HERO
 
     font-size:72px;
 
-    line-height:1;
+    line-height:1.05;
 
     margin-bottom:25px;
 
     text-transform:uppercase;
+
+    word-break:break-word;
 
 }
 
@@ -1165,5 +1167,104 @@ ANIMATIONS
 .btn-route:active{
 
     transform:translateY(-1px);
+
+}
+
+/* ===== Мобильная версия ===== */
+
+@media (max-width:768px){
+
+    .hero-content{
+
+        text-align:center;
+
+    }
+
+    .hero-content h1{
+
+        font-size:46px;
+
+        line-height:1.1;
+
+    }
+
+    .hero-content p{
+
+        font-size:18px;
+
+        line-height:1.6;
+
+    }
+
+    .hero-buttons{
+
+        display:flex;
+
+        justify-content:center;
+
+        align-items:center;
+
+    }
+
+}
+
+/* ===========================
+   Мобильная версия
+=========================== */
+
+@media (max-width:768px){
+
+    .hero{
+
+        padding-top:100px;
+        min-height:auto;
+
+    }
+
+    .hero-wrapper{
+
+        grid-template-columns:1fr;
+        gap:40px;
+        text-align:center;
+
+    }
+
+    .hero-content{
+
+        order:2;
+
+    }
+
+    .hero-image{
+
+        order:1;
+
+    }
+
+    .hero-content h1{
+
+        font-size:44px;
+        line-height:1.1;
+
+    }
+
+    .hero-content p{
+
+        font-size:18px;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+        flex-wrap:wrap;
+
+    }
+
+    .hero-image img{
+
+        max-width:320px;
+
+    }
 
 }
