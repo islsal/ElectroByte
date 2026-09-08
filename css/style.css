@@ -875,8 +875,9 @@ FOOTER
 RESPONSIVE
 ========================================================== */
 
-@media(max-width:1100px){
+@media(max-width:768px){
 
+    
     .hero-wrapper{
 
         grid-template-columns:1fr;
@@ -928,6 +929,31 @@ RESPONSIVE
         grid-template-columns:1fr;
 
     }
+    .hero-content h1{
+
+    font-size:44px;
+
+    line-height:1.1;
+
+}
+
+.hero-image img{
+
+    max-width:300px;
+
+}
+
+.hero{
+
+    padding-top:100px;
+
+}
+
+.hero-image{
+
+    margin-top:20px;
+
+}
 
 }
 
