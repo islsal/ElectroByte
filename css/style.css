@@ -1294,3 +1294,13 @@ ANIMATIONS
     }
 
 }
+
+@media (max-width:600px){
+
+    .hero-image{
+
+        display:none;
+
+    }
+
+}
